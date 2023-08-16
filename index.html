@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página de Botes</title>
+</head>
+<body>
+  <header>
+    <h1>Botes Marinos</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Botes a la Venta</a></li>
+      <li><a href="#">Galería</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <section>
+    <h2>Modelos Destacados</h2>
+    <div class="boat">
+      <img src="bote1.jpeg" alt="Bote 1">
+      <h3>Modelo Clásico</h3>
+      <p>Un bote clásico con estilo y rendimiento excepcionales.</p>
+    </div>
+    
+    <div class="boat">
+      <img src="bote2.jpeg" alt="Bote 2">
+      <h3>Bote Deportivo</h3>
+      <p>El bote perfecto para los amantes de la velocidad y la adrenalina.</p>
+    </div>
+  </section>
+  
+  <section>
+    <h2>Contacto</h2>
+    <form action="enviar.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Botes Marinos</p>
+  </footer>
+</body>
+</html>
